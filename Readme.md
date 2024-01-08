@@ -18,4 +18,15 @@ docker run -p 8080:8080 sample:test
 
 ```
 
+# Datadog run time metric
+
+DD_AGENT_MAJOR_VERSION=7 DD_API_KEY=XXxxxxxxxxxx DD_SITE="us5.datadoghq.com" bash -c "$(curl -L https://s3.amazonaws.com/dd-agent/scripts/install_mac_os.sh)"
+
+
+api_key: xxxxxxx
+site: us5.datadoghq.com
+
+
+
+
 
